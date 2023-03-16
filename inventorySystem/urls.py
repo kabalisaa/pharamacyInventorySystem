@@ -22,8 +22,8 @@ urlpatterns = [
 
 # django Panel admin customization 
 
-admin.site.site_header = 'Pharamacy Inventory System | Admin Panel | Kabalisa'
+admin.site.site_header = 'Pharmacy Inventory System | Admin Panel | Kabalisa'
 
-admin.site.index_title = "Pharamacy Inventory System"
+admin.site.index_title = "Pharmacy Inventory System"
 
 admin.site.site_title = "Admin Panel"

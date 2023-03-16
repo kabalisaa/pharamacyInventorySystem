@@ -27,6 +27,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+#user authe
+
+AUTH_USER_MODEL = 'authentication.User'
 
 # Application definition
 
@@ -37,6 +40,8 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    "pharmacy",
+    "authentication",
 ]
 
 MIDDLEWARE = [
